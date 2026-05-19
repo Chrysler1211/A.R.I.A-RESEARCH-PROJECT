@@ -1,6 +1,6 @@
 # ARIA: Advanced Data Gathering for Parents using Innovative Support
-
-![ARIA Robot Blueprint](images/aria-blueprint.png)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 ## Introduction
 
@@ -22,11 +22,10 @@ The ARIA robot is controlled through a mobile application connected via Bluetoot
 8. [Installation Guide](#installation-guide)
 9. [Usage](#usage)
 10. [Blueprint and Design](#blueprint-and-design)
-11. [GitHub Repository Setup](#github-repository-setup)
-12. [Video Demonstration](#video-demonstration)
-13. [Future Improvements](#future-improvements)
-14. [Researchers / Developers](#researchers--developers)
-15. [License](#license)
+11. [Video Demonstration](#video-demonstration)
+12. [Future Improvements](#future-improvements)
+13. [Researchers / Team Roles](#researchers--team-roles)
+14. [License](#license)
 
 ---
 
@@ -58,7 +57,7 @@ ARIA is a smart robotic system developed to assist parents through advanced moni
 ## Robot Features
 - Wireless Bluetooth communication
 - Arduino-powered control system
-- Smart support functionality
+- Claw functionality
 - Interactive robotic responses
 
 ---
@@ -66,7 +65,6 @@ ARIA is a smart robotic system developed to assist parents through advanced moni
 # Technology Stack
 
 ## Programming Languages
-- C
 - C++
 
 ## Development Tools
@@ -77,6 +75,11 @@ ARIA is a smart robotic system developed to assist parents through advanced moni
 - Arduino Board
 - Bluetooth Module
 - Mobile Device Integration
+- Bluetooth module
+- Ultrasonic sensor
+- Servo motor and claw
+- Robot wheels and mobility components
+- Lithium battery power supply
 
 ---
 
@@ -88,7 +91,7 @@ The ARIA project was developed using the following process:
 2. Designing the robot structure and blueprint
 3. Developing the mobile application interface
 4. Integrating Bluetooth communication
-5. Programming the robot using C and C++
+5. Programming the robot using C++
 6. Testing Arduino connectivity and robot responses
 7. Finalizing the robot design and functionality
 
@@ -109,7 +112,7 @@ The ARIA project was developed using the following process:
 - Arduino IDE
 - Mobile Application
 - Bluetooth Communication System
-- Embedded C/C++ Programs
+- Embedded C++ Programs
 
 ---
 
@@ -146,71 +149,16 @@ The ARIA project was developed using the following process:
 
 The blueprint image of the ARIA robot can be added inside the repository.
 
-Example folder structure:
+<img width="2048" height="923" alt="630448891_1216490530156469_4273371572267917463_n" src="https://github.com/user-attachments/assets/3eb1a5d0-6922-4794-b084-3f4e2652214d" />
 
-```plaintext
-project-folder/
-│
-├── README.md
-├── images/
-│   └── aria-blueprint.png
-├── arduino-code/
-│   └── aria_main.ino
-└── mobile-app/
-```
 
-To display the blueprint image in GitHub:
 
-```md
-![ARIA Robot Blueprint](images/aria-blueprint.png)
-```
-
----
-
-# GitHub Repository Setup
-
-You can upload:
-- Arduino source code
-- Mobile application files
-- Images and blueprints
-- Documentation
-- Research files
-
-Suggested repository structure:
-
-```plaintext
-ARIA-Project/
-│
-├── README.md
-├── images/
-├── arduino-code/
-├── mobile-app/
-├── documentation/
-└── research-paper/
-```
-
----
 
 # Video Demonstration
 
-Yes, GitHub repositories can include videos.
+<video src="https://github.com/user-attachments/assets/ce7d9c9a-271e-4f73-8940-d4d35f06256b.mp4" controls width="600"></video>
 
-## Option 1: Upload Video Directly
-You can drag and drop `.mp4` files into GitHub Issues, Discussions, or Releases.
 
-## Option 2: Use YouTube Link (Recommended)
-
-Upload your demo video to YouTube and add the link in the README:
-
-```md
-## Project Demo Video
-[Watch the ARIA Demonstration](https://youtube.com/)
-```
-
-## Option 3: Add GIF Preview
-You can also create a short GIF preview of the robot in action and display it directly in the README.
-
----
 
 # Future Improvements
 
@@ -222,10 +170,10 @@ You can also create a short GIF preview of the robot in action and display it di
 
 ---
 
-# Researchers / Developers
+# Researchers / Team Roles
 
-- Add your group members here
-- Add your adviser or instructor here
+<img width="587" height="370" alt="Screenshot 2026-05-19 224000" src="https://github.com/user-attachments/assets/e0d4305e-891d-41af-a5a9-6dad543efe75" />
+
 
 ---
 
@@ -233,5 +181,25 @@ You can also create a short GIF preview of the robot in action and display it di
 
 This project is for academic and research purposes.
 
-You may choose to add an open-source license such as the MIT License if the repository will be public.
+Copyright (c) 2021 A.R.I.A RESEARCH PROJECT
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
 
