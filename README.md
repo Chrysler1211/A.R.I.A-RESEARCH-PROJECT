@@ -29,7 +29,7 @@ The ARIA robot is controlled through a mobile application connected via Bluetoot
 
 ---
 
- Project Overview
+# Project Overview
 
 ARIA is a smart robotic system developed to assist parents through advanced monitoring and support features. The robot is integrated with Bluetooth technology and controlled using a mobile application. The project focuses on accessibility, innovation, and practical automation.
 
