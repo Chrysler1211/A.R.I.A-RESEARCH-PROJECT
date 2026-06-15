@@ -147,7 +147,7 @@ The ARIA project was developed using the following process:
 
 # Blueprint and Design
 
-The blueprint image of the ARIA robot can be added inside the repository.
+The blueprint image of the ARIA.
 
 <img width="2048" height="923" alt="630448891_1216490530156469_4273371572267917463_n" src="https://github.com/user-attachments/assets/3eb1a5d0-6922-4794-b084-3f4e2652214d" />
 
