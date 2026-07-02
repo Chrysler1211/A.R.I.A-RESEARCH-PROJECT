@@ -1,205 +1,288 @@
-# ARIA: Advanced Data Gathering for Parents using Innovative Support
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+<div align="center">
 
-## Introduction
+# 🤖 A.R.I.A.
+### Advanced Data Gathering for Parents using Innovative Support
 
-ARIA (Advanced Data Gathering for Parents using Innovative Support) is a robotics research project designed to provide innovative assistance through smart data gathering and remote-control functionality. The project combines mobile technology, Bluetooth communication, and Arduino-based robotics to create an interactive and user-friendly support system.
+<img src="https://img.shields.io/badge/Research-Project-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bluetooth-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white"/>
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
 
-The ARIA robot is controlled through a mobile application connected via Bluetooth, allowing users to remotely manage and monitor the robot’s functions directly from a smartphone.
+*A smart Arduino-powered robotic assistant designed to improve accessibility through Bluetooth communication and mobile device integration.*
 
----
-
-# Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Objectives](#objectives)
-3. [System Features](#system-features)
-4. [Technology Stack](#technology-stack)
-5. [Development Process](#development-process)
-6. [Hardware Components](#hardware-components)
-7. [Software Components](#software-components)
-8. [Installation Guide](#installation-guide)
-9. [Usage](#usage)
-10. [Blueprint and Design](#blueprint-and-design)
-11. [Video Demonstration](#video-demonstration)
-12. [Future Improvements](#future-improvements)
-13. [Researchers / Team Roles](#researchers--team-roles)
-14. [License](#license)
+</div>
 
 ---
 
-# Project Overview
+# 📖 Overview
 
-ARIA is a smart robotic system developed to assist parents through advanced monitoring and support features. The robot is integrated with Bluetooth technology and controlled using a mobile application. The project focuses on accessibility, innovation, and practical automation.
+ARIA (Advanced Data Gathering for Parents using Innovative Support) is a robotics research project developed as part of our Senior High School research.
 
----
+The project focuses on creating a smart robotic system capable of assisting users through remote control, Bluetooth communication, and Arduino-based automation.
 
-# Objectives
-
-- Develop a smart robotic support system
-- Create a mobile application for robot control
-- Implement Bluetooth communication between the robot and mobile device
-- Utilize Arduino technology for hardware integration
-- Improve data gathering and accessibility for users
+The robot is operated using a mobile application, allowing users to wirelessly communicate with the robot while providing an intuitive and accessible user experience.
 
 ---
 
-# System Features
+# 📸 Project Showcase
 
-## Mobile Application Features
-- Bluetooth connection to ARIA robot
-- Remote robot control
+## Robot Blueprint
+
+<img width="2048" height="923" alt="Blueprint" src="https://github.com/user-attachments/assets/3eb1a5d0-6922-4794-b084-3f4e2652214d"/>
+
+---
+
+## Demonstration Video
+
+https://github.com/user-attachments/assets/ce7d9c9a-271e-4f73-8940-d4d35f06256b
+
+---
+
+# 🚀 Features
+
+### 📱 Mobile Application
+
+- Bluetooth pairing
+- Wireless robot control
 - User-friendly interface
-- Real-time communication with the robot
-- Display of ARIA information and functionalities
+- Real-time communication
+- Robot status monitoring
 
-## Robot Features
-- Wireless Bluetooth communication
-- Arduino-powered control system
-- Claw functionality
+---
+
+### 🤖 Robot
+
+- Arduino-powered control
+- Bluetooth communication
+- Servo-operated robotic claw
+- Ultrasonic obstacle detection
+- Remote movement
 - Interactive robotic responses
 
 ---
 
-# Technology Stack
+# 🛠 Technology Stack
 
-## Programming Languages
-- C++
+## Programming Language
+
+<p>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="60"/>
+
+</p>
+
+---
 
 ## Development Tools
-- Arduino IDE
-- Bluetooth Mobile Application
 
-## Hardware
-- Arduino Board
-- Bluetooth Module
-- Mobile Device Integration
-- Bluetooth module
-- Ultrasonic sensor
-- Servo motor and claw
-- Robot wheels and mobility components
-- Lithium battery power supply
+<p>
 
----
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="60"/>
 
-# Development Process
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="60"/>
 
-The ARIA project was developed using the following process:
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60"/>
 
-1. Planning and conceptualization of the ARIA robot
-2. Designing the robot structure and blueprint
-3. Developing the mobile application interface
-4. Integrating Bluetooth communication
-5. Programming the robot using C++
-6. Testing Arduino connectivity and robot responses
-7. Finalizing the robot design and functionality
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="60"/>
+
+</p>
 
 ---
 
-# Hardware Components
+# ⚙ Hardware Components
 
 - Arduino Microcontroller
 - Bluetooth Module
-- Power Supply
+- Ultrasonic Sensor
+- Servo Motor
+- Robotic Claw
+- Robot Chassis
+- Wheels
+- Lithium Battery
 - Mobile Device
-- Robotic Components and Sensors
 
 ---
 
-# Software Components
+# 🧠 Software Components
 
 - Arduino IDE
-- Mobile Application
-- Bluetooth Communication System
-- Embedded C++ Programs
+- Embedded C++
+- Bluetooth Communication
+- Mobile Controller Application
 
 ---
 
-# Installation Guide
+# 🏗 System Architecture
 
-## Arduino Setup
-
-1. Install the Arduino IDE
-2. Connect the Arduino board to your computer
-3. Upload the ARIA source code to the Arduino board
-4. Connect the Bluetooth module properly
-5. Power on the robot
-
-## Mobile Application Setup
-
-1. Install the ARIA mobile application
-2. Enable Bluetooth on your smartphone
-3. Pair the smartphone with the ARIA robot
-4. Open the application and connect to the robot
-
----
-
-# Usage
-
-1. Turn on the ARIA robot
-2. Launch the mobile application
-3. Connect through Bluetooth
-4. Use the application controls to operate the robot
-5. Monitor the robot features and responses directly from the phone
+```text
+          Smartphone
+                │
+          Bluetooth Module
+                │
+          Arduino Controller
+                │
+ ┌──────────────┼──────────────┐
+ │              │              │
+Servo       Ultrasonic      DC Motors
+Motor         Sensor
+ │
+Robotic Claw
+```
 
 ---
 
-# Blueprint and Design
+# 🔄 Development Workflow
 
-The blueprint image of the ARIA.
+```text
+Planning
 
-<img width="2048" height="923" alt="630448891_1216490530156469_4273371572267917463_n" src="https://github.com/user-attachments/assets/3eb1a5d0-6922-4794-b084-3f4e2652214d" />
+↓
 
+Research
 
+↓
 
+Robot Design
 
-# Video Demonstration
+↓
 
-<video src="https://github.com/user-attachments/assets/ce7d9c9a-271e-4f73-8940-d4d35f06256b.mp4" controls width="600"></video>
+Hardware Assembly
 
+↓
 
+Arduino Programming
 
-# Future Improvements
+↓
 
-- Add Wi-Fi connectivity
-- Improve robotic automation
-- Add AI-based features
-- Enhance mobile application design
-- Integrate cloud-based data gathering
+Bluetooth Integration
+
+↓
+
+Testing
+
+↓
+
+Final Prototype
+```
 
 ---
 
-# Researchers / Team Roles
+# 📂 Repository Structure
 
-<img width="587" height="370" alt="Screenshot 2026-05-19 224000" src="https://github.com/user-attachments/assets/e0d4305e-891d-41af-a5a9-6dad543efe75" />
+```
+ARIA/
+
+│── Arduino/
+│   ├── aria_robot.ino
+│   └── README.md
+
+│── Documentation/
+│   ├── Research Paper.pdf
+│   ├── Methodology.pdf
+│   └── README.md
+
+│── Images/
+│   ├── Blueprint.png
+│   ├── Prototype.jpg
+│   └── README.md
+
+│── Videos/
+│   ├── Demo.mp4
+│   └── README.md
+
+│── README.md
+
+│── LICENSE
+```
+
+---
+
+# 💡 Project Objectives
+
+- Develop a robotic support system
+- Integrate Bluetooth communication
+- Design a user-friendly mobile application
+- Utilize Arduino for embedded system control
+- Improve accessibility through automation
+
+---
+
+# 👨‍💻 My Contributions
+
+As a member of the ARIA research team, I contributed to:
+
+- Project planning
+- Research documentation
+- Hardware assembly
+- Arduino setup
+- System testing
+- GitHub repository organization
+- Technical documentation
+
+> **Note:** The embedded C++ control logic was primarily implemented by another team member. My contributions focused on the areas listed above.
+
+---
+
+# 📚 Skills Demonstrated
+
+- Robotics
+- Arduino Development
+- Embedded Systems
+- Hardware Integration
+- Bluetooth Communication
+- Mobile Device Integration
+- Technical Documentation
+- Git & GitHub
+- Team Collaboration
+- Research Methodology
+
+---
+
+# 🚀 Future Roadmap
+
+- [x] Bluetooth Communication
+- [x] Mobile Controller
+- [x] Arduino Integration
+- [x] Prototype Development
+- [ ] AI Object Detection
+- [ ] Wi-Fi Connectivity
+- [ ] Voice Commands
+- [ ] Cloud Synchronization
+- [ ] Autonomous Navigation
+- [ ] Mobile Notifications
+
+---
+
 
 
 ---
 
-# License
-
-This project is for academic and research purposes.
-
-Copyright (c) 2021 A.R.I.A RESEARCH PROJECT
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+# 📜 Research Team
 
 
 
+<img width="587" height="370" alt="Research Team" src="https://github.com/user-attachments/assets/e0d4305e-891d-41af-a5a9-6dad543efe75"/>
+
+---
+
+# 📄 License
+
+This project is intended for academic and educational purposes.
+
+Licensed under the **MIT License**.
+
+See the **LICENSE** file for additional information.
+
+---
+
+<div align="center">
+
+### ⭐ Thank you for visiting this repository!
+
+If you found this project interesting, feel free to leave a ⭐ on the repository.
+
+**Built with ❤️ by the A.R.I.A. Research Team**
+
+</div>
